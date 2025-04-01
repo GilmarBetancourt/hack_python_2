@@ -11,5 +11,12 @@ text: [0] output => [0]
 
 def fn_hack_7(s):
     result = s
-    #...
+    if (result != [0]):
+        for i in range(len(result)):
+            if (i%2==0):
+                result[i]= str(i+1)
+            else:
+                result[i] = i+1
+    
     return result
+
