@@ -15,7 +15,7 @@ def fn_hack_5(s):
     stringl = len(result)
     for i in range(2, stringl, 3):
         if (stringl>2):
-            result = result.replace(result[i], "-",1)
+            result = result.replace(result[i], "-", 1)
     print(result)
     return result
 
